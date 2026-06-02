@@ -1,7 +1,18 @@
+import Background from "./components/Background";
+import Navbar from "./components/Navbar";
+import About from "./sections/About/About";
+import FloatingParticle from "./sections/Hero/FloatingParticles";
+import Hero from "./sections/Hero/Hero";
 function App() {
   return (
     <>
-      <div className="text-left  text-red-500 underline">Hello, Vite!</div>
+      <Background />
+      <main className="relative z-10 overflow-hidden">
+        <Navbar />
+        <FloatingParticle />
+        <Hero />
+        <About />
+      </main>
     </>
   );
 }

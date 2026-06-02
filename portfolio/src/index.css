@@ -1,1 +1,69 @@
 @import "tailwindcss";
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(0,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,255,0.08) 1px, transparent 1px);
+
+  background-size: 75px 75px;
+}
+
+.animated-gradient-text {
+  background: linear-gradient(
+    90deg,
+    #22d3ee,
+    #8b5cf6,
+    #f97316,
+    #22d3ee
+  );
+
+  background-size: 300% 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  animation: gradientMove 2s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.slow-spin {
+  animation: slowSpin 12s linear infinite;
+}
+
+.slow-spin-reverse {
+  animation: slowSpinReverse 16s linear infinite;
+}
+
+@keyframes slowSpin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slowSpinReverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
