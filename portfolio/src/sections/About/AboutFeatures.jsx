@@ -33,6 +33,7 @@ export default function AboutFeatures() {
 
         return (
           <Tilt
+            key={feature.title}
             tiltMaxAngleX={8}
             tiltMaxAngleY={8}
             glareEnable={true}
@@ -52,7 +53,6 @@ export default function AboutFeatures() {
                 delay: index * 0.15,
               }}
               viewport={{ once: true }}
-              key={feature.title}
               className="
              w-full
               group

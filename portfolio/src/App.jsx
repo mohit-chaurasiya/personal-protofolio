@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./sections/About/About";
 import FloatingParticle from "./sections/Hero/FloatingParticles";
 import Hero from "./sections/Hero/Hero";
+import Skills from "./sections/Skills/Skills";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <FloatingParticle />
         <Hero />
         <About />
+        <Skills />
       </main>
     </>
   );
