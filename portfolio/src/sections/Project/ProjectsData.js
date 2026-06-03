@@ -6,7 +6,7 @@ export const featuredProject = {
     status: "pending",
 
     description:
-        "Construction management platform featuring project tracking, workforce management, task assignment, admin dashboard and real-time project monitoring for construction teams."
+        "Construction management platform featuring project tracking, workforce management, task assignment, admin dashboard and real-time project monitoring for construction teams.",
 
     tech: [
         "Django",

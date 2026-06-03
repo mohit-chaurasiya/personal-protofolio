@@ -5,10 +5,12 @@ import FloatingParticle from "./sections/Hero/FloatingParticles";
 import Hero from "./sections/Hero/Hero";
 import Skills from "./sections/Skills/Skills";
 import Projects from "./sections/Project/Projects";
+import Timeline from "./sections/Timeline/Timeline";
 function App() {
   return (
     <>
       <Background />
+
       <main className="relative z-10 overflow-hidden">
         <Navbar />
         <FloatingParticle />
@@ -16,6 +18,9 @@ function App() {
         <About />
         <Skills />
         <Projects />
+
+        <Timeline />
+        
       </main>
     </>
   );
