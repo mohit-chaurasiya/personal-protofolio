@@ -84,7 +84,7 @@ export const projects = [
 
         subtitle: "Personal Portfolio",
 
-        status: "development",
+        status: "live",
 
         description:
             "Modern portfolio built using React, Tailwind CSS and Framer Motion.",
@@ -95,6 +95,6 @@ export const projects = [
 
         github: "https://github.com/mohit-chaurasiya/personal-protofolio",
 
-        live: "#",
+        live: "https://personal-protofolio-1m12-e64z8n8wh-mohit-chaurasiyas-projects.vercel.app/",
     },
 ];
