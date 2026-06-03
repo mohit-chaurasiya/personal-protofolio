@@ -95,6 +95,6 @@ export const projects = [
 
         github: "https://github.com/mohit-chaurasiya/personal-protofolio",
 
-        live: "https://personal-protofolio-1m12-e64z8n8wh-mohit-chaurasiyas-projects.vercel.app/",
+        live: "https://personal-protofolio-1m12.vercel.app/",
     },
 ];
