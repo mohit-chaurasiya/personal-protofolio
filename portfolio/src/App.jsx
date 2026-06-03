@@ -4,6 +4,7 @@ import About from "./sections/About/About";
 import FloatingParticle from "./sections/Hero/FloatingParticles";
 import Hero from "./sections/Hero/Hero";
 import Skills from "./sections/Skills/Skills";
+import Projects from "./sections/Project/Projects";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
       </main>
     </>
   );
