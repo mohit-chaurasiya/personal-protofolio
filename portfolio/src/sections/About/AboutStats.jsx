@@ -19,7 +19,7 @@ const stats = [
   {
     value: 2026,
     suffix: "",
-    label: "Graduate",
+    label: "Diploma Completed",
   },
 ];
 
