@@ -27,12 +27,16 @@ function Hero() {
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-6">
-        <button className="px-8 sm:w-auto py-3 rounded-full bg-cyan-400 text-black font-semibold transition-all duration-300 shadow-[0_0_25px_rgba(34,211,238,0.5)] hover:shadow-[0_0_30px_rgba(0,255,255,0.5)] hover:scale-105">
-          VIEW PROJECTS
-        </button>
-        <button className="px-8 py-3 sm:w-auto rounded-full border border-cyan-500 text-cyan-400 transition-all duration-300 hover:bg-cyan-500/10 hover:-translate-y-1">
-          GET IN TOUCHES
-        </button>
+        <a href="#projects" className="w-full sm:w-auto">
+          <button className="px-8 sm:w-auto py-3 rounded-full bg-cyan-400 text-black font-semibold transition-all duration-300 shadow-[0_0_25px_rgba(34,211,238,0.5)] hover:shadow-[0_0_30px_rgba(0,255,255,0.5)] hover:scale-105">
+            VIEW PROJECTS
+          </button>
+        </a>
+        <a href="#contact" className="w-full sm:w-auto">
+          <button className="px-8 py-3 sm:w-auto rounded-full border border-cyan-500 text-cyan-400 transition-all duration-300 hover:bg-cyan-500/10 hover:-translate-y-1">
+            GET IN TOUCHES
+          </button>
+        </a>
       </div>
 
       <HeroStats />

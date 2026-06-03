@@ -79,7 +79,7 @@ export const timelineData = [
 
     {
         year: "Jul 2026",
-        badge: "Graduation",
+        badge: "Diploma",
         title: "Diploma Completion",
         company: "Computer Science Engineering",
         icon: "🎯",

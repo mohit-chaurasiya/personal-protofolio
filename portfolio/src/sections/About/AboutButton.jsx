@@ -4,8 +4,9 @@ export default function AboutButtons() {
   return (
     <div className="flex flex-col sm:flex-row gap-4 mt-10">
       {/* Primary Button */}
-      <button
-        className="
+      <a href="#contact">
+        <button
+          className="
         px-8 py-4
         rounded-full
         bg-cyan-400
@@ -16,12 +17,13 @@ export default function AboutButtons() {
         hover:scale-105
         hover:shadow-[0_0_35px_rgba(34,211,238,0.45)]
         "
-      >
-        <span className="flex items-center gap-2">
-          WORK TOGETHER
-          <ArrowRight size={18} />
-        </span>
-      </button>
+        >
+          <span className="flex items-center gap-2">
+            WORK TOGETHER
+            <ArrowRight size={18} />
+          </span>
+        </button>
+      </a>
 
       {/* Secondary Button */}
       <button
@@ -41,10 +43,12 @@ export default function AboutButtons() {
         hover:-translate-y-1
         "
       >
-        <span className="flex items-center gap-2">
-          <Download size={18} />
-          DOWNLOAD CV
-        </span>
+        <a href="/MohitCv.pdf" download>
+          <span className="flex items-center gap-2">
+            <Download size={18} />
+            Download CV
+          </span>
+        </a>
       </button>
     </div>
   );
