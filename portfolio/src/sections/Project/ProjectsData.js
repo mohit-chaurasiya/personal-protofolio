@@ -29,7 +29,7 @@ export const projects = [
 
         subtitle: "Digital Visitor Tracking",
 
-        status: "development",
+        status: "live",
 
         description:
             "Visitor registration, approval workflow and pass generation system.",
@@ -39,7 +39,7 @@ export const projects = [
         image: "/projects/vms.png",
 
         github: "https://github.com/mohit-chaurasiya/MERN-PROJECT/tree/master/visitor-pass-management",
-        live: "#",
+        live: "https://mern-project-kappa-three.vercel.app/",
     },
 
     {
